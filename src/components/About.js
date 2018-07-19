@@ -1,12 +1,9 @@
 import React from 'react';
-import { Switch, Route } from 'react-router-dom';
-import Player from './Player';
 
-const Roster = () => (
-    <Switch>
-        {/* <Route exact path='/roster' component={FullRoster} /> */}
-        <Route path='/roster/:number' component={Player} />
-    </Switch>
+const About = () => (
+    <div>
+        <h4> Rodeo is a key component to the development and growth in of Minneapolis Tech Industry</h4>
+    </div>
 )
 
-export default Roster;
+export default About;

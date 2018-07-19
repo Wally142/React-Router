@@ -1,13 +1,26 @@
 import React from 'react';
+import '../App.css';
 
-const Schedule = () => (
-    <div>
-        <ul>
-            <li>6/5 @ Evergreens</li>
-            <li>6/8 vs Kickers</li>
-            <li>6/14 @ United</li>
-        </ul>
+const Team = () => (
+    <div className="container-fluid">
+    <h1>Meet The Rodeo Team </h1>
+        <div className="row">
+            <div className="col-md-6">
+                <h3>Nick Mikoff</h3>
+            </div>
+            <div className="col-md-6">
+                <h3>Greg Wallerus</h3>
+            </div>
+        </div>
+        <div className="row">
+            <div className="col-md-6">
+                <h3>Amanda Hellenbrand</h3>
+            </div>
+            <div className="col-md-6">
+                <h3>Mark Scherr</h3>
+            </div>
+        </div>
     </div>
 )
 
-export default Schedule;
+export default Team;

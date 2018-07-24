@@ -6,7 +6,7 @@ const Header = () => (
         <nav class="navbar navbar-default">
             <div class="container-fluid">
                 <div class="navbar-header">
-                    <a class="navbar-brand">Rodeo Inc</a>
+                    <a class="navbar-brand">Rodeo Consultants</a>
                 </div>
                 <ul class="nav navbar-nav">
                     <li><Link to='/'>Home</Link></li>

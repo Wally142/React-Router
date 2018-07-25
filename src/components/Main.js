@@ -4,13 +4,21 @@ import Team from './Team';
 import Home from './Home';
 import About from './About';
 
-const Main = () => (
-    
-    <Switch>
-        <Route exact path='/' component={Home} />
-        <Route path='/team' component={Team} />
-        <Route path='/about' component={About} />
-    </Switch>
+const Main = (props) => (
+    <div>
+        <Switch>
+            <Route exact path='/' component={Home} />
+            <Route path='/team' component={Team} />
+            <Route path='/headlines' component={About} />
+        </Switch>
+        <div>
+            {props.name.map(item => (
+                <div className="text-center" key={item.publishedAt}>
+                    <a target="_blank" href={item.url} className="urlText">{item.title}</a>
+                </div>
+            ))}
+        </div>
+    </div>
 )
 
 export default Main;

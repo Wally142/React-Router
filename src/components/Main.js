@@ -12,6 +12,7 @@ const Main = (props) => (
             <Route path='/headlines' component={About} />
         </Switch>
         <div>
+            <br />
             {props.name.map(item => (
                 <div className="text-center" key={item.publishedAt}>
                     <a target="_blank" href={item.url} className="urlText">{item.title}</a>

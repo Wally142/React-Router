@@ -1,19 +1,19 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 import Home from './Home';
-import Sport from './Sport';
-import Finance from './Finance';
-import World from './World';
-import Tech from './Tech';
+import Rules from './Rules';
+import Rankings from './Rankings';
+import Results from './Results';
+import Smack from './SmackTalk';
 
 const Main = (props) => (
     <div>
         <Switch>
             <Route exact path='/' component={Home} />
-            <Route path='/sports' component={Sport} />
-            <Route path='/finance' component={Finance} />
-            <Route path='/world' component={World} />
-            <Route path='/tech' component={Tech} />
+            <Route path='/rules' component={Rules} />
+            <Route path='/rankings' component={Rankings} />
+            <Route path='/results' component={Results} />
+            <Route path='/bark' component={Smack} />
         </Switch>
         {/* <div>
             <br />

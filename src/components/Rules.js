@@ -1,10 +1,10 @@
 import React from 'react';
 import '../App.css';
 
-const Sport = () => (
+const Finance = () => (
     <div className="container-fluid">
-        <h1>Rodeo Sports</h1>
+        <h1>League Rules</h1>
     </div>
 )
 
-export default Sport;
+export default Finance;

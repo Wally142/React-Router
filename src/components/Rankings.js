@@ -1,10 +1,10 @@
 import React from 'react';
 import '../App.css';
 
-const World = () => (
+const Sport = () => (
     <div className="container-fluid">
-        <h1>Rodeo World News</h1>
+        <h1>Power Rankings</h1>
     </div>
 )
 
-export default World;
+export default Sport;

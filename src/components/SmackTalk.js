@@ -1,10 +1,10 @@
 import React from 'react';
 import '../App.css';
 
-const Tech = () => (
+const Talk = () => (
     <div className="container-fluid">
-        <h1>Rodeo Tech</h1>
+        <h1>Barking Goes Here</h1>
     </div>
 )
 
-export default Tech;
+export default Talk;

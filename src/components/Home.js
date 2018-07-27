@@ -1,12 +1,12 @@
 import React from 'react';
-import logo from '../logo.jpg';
+import logo from '../peter.jpg';
 
 const Home = (props) => (
     
     <div>
-        <h1>Welcome To Rodeo!</h1>
+        <h1>The League Of Donks!</h1>
         <img alt="Cool Cat Here" src={logo} />
-        <h4>All Of The Latest News Found Here</h4>
+        <h4>Petoria Is Trash</h4>
        
     </div>
 )

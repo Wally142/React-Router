@@ -6,14 +6,14 @@ const Header = () => (
         <nav className="navbar navbar-default">
             <div className="container-fluid">
                 <div className="navbar-header">
-                    <a className="navbar-brand">Rodeo Consultants</a>
+                    <a className="navbar-brand">League Of Donks</a>
                 </div>
                 <ul className="nav navbar-nav">
                     <li><Link to='/'>Home</Link></li>
-                    <li><Link to='/world'>World News</Link></li>
-                    <li><Link to='/sports'>Sports</Link></li>
-                    <li><Link to='/finance'>Finance</Link></li>
-                    <li><Link to='/tech'>Tech</Link></li>
+                    <li><Link to='/rules'>Rules</Link></li>
+                    <li><Link to='/rankings'>Rankings</Link></li>
+                    <li><Link to='/results'>Results</Link></li>
+                    <li><Link to='/bark'>Barking</Link></li>
                 </ul>
             </div>
         </nav>
